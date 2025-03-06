@@ -4,6 +4,8 @@ const fastify = Fastify({});
 
 fastify.get('/fooupdate', {}, async (request, reply) => {});
 fastify.get('/foodelete', {}, async (request, reply) => {});
+fastify.get('/buildpatch', {}, async (request, reply) => {});
+fastify.get('/buildpatchexperimental', {}, async (request, reply) => {});
 fastify.get('/mymethod', {}, async (request, reply) => {});
 fastify.get('/mymethod42', {}, async (request, reply) => {});
 
